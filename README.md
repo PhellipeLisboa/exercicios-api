@@ -10,7 +10,7 @@ Projeto desenvolvido para treinar a criação de um CRUD simples com Spring Boot
 
 #### Cadastra um exercício
 
-```http
+```
   POST /exercicios
 ```
 
@@ -32,7 +32,7 @@ Exemplo de requisição para criar um exercício
 
 #### Retorna um exercício por id
 
-```http
+```
   GET /exercicios/id/{id}
 ```
 
@@ -54,7 +54,7 @@ Exemplo de resposta para id=1
 
 #### Retorna um exercício por nome
 
-```http
+```
   GET /exercicios/nome/{nome}
 ```
 
@@ -76,7 +76,7 @@ Exemplo de resposta para nome=Agachamento Livre
 
 #### Retorna os exercícios para um determinado grupo muscular
 
-```http
+```
   GET /exercicios/grupo-muscular/{grupoMuscular}
 ```
 
@@ -106,7 +106,7 @@ Exemplo de resposta para grupoMuscular=pernas
 
 #### Exclui um exercício
 
-```http
+```
   DELETE /exercicios/{id}
 ```
 
@@ -116,7 +116,7 @@ Exemplo de resposta para grupoMuscular=pernas
 
 #### Altera informações sobre um exercício
 
-```http
+```
   PUT /exercicios/{id}
 ```
 
